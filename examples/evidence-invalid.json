@@ -1,0 +1,25 @@
+{
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "演示缺失文件的检查，不代表实际实现结论。",
+      "file": "missing.py",
+      "start_line": 1,
+      "end_line": 1
+    },
+    {
+      "id": "C2",
+      "claim": "演示引用行号超过文件长度的检查。",
+      "file": "review_rules.py",
+      "start_line": 1,
+      "end_line": 120
+    },
+    {
+      "id": "C3",
+      "claim": "演示拒绝访问源码根目录外的文件。",
+      "file": "../evidence-valid.json",
+      "start_line": 1,
+      "end_line": 1
+    }
+  ]
+}

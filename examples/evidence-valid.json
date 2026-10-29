@@ -1,0 +1,18 @@
+{
+  "claims": [
+    {
+      "id": "C1",
+      "claim": "has_limitations 只判断全文是否出现任意一个局限性关键词，没有逐模型检查。",
+      "file": "review_rules.py",
+      "start_line": 1,
+      "end_line": 3
+    },
+    {
+      "id": "C2",
+      "claim": "within_model_count 检查数量是否位于包含端点的 3 到 7 之间。",
+      "file": "review_rules.py",
+      "start_line": 6,
+      "end_line": 7
+    }
+  ]
+}
