@@ -1,5 +1,7 @@
 # analyze-github-repo
 
+**中文** | [English](README_EN.md)
+
 一个只读的 Agent Skill：分析公开 GitHub 仓库或本地源码，解释主要功能、架构、执行流程与实现边界。
 
 目标不是写一篇项目介绍，而是让结论**可追溯、可区分、可验证**：
@@ -31,6 +33,8 @@
 ```text
 analyze-github-repo/
 ├── SKILL.md                          # 主指令与执行流程
+├── README.md                         # 中文仓库说明（本文件）
+├── README_EN.md                      # 英文仓库说明
 ├── references/
 │   └── domain-rules.md               # 能力声明分类、证据与验收规则
 ├── scripts/
